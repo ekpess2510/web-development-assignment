@@ -69,19 +69,37 @@ li a.logo{
 /**===== Index.html section ====*/
 
 .navbar{
+    position: fixed;
+    top: 11.6%;
+    width: 100%;
     padding: 42;
     background-color: #333;
     overflow: hidden;
    
+}
+.navbar + .bodydiv {
+    padding-top: 140px;
+}
+
+.navbar + .herofaq{
+    padding-top: 140px;
+}
+
+.navbar + .hero{
+    padding-top: 240px;
+}
+
+.navbar +.prodbody{
+    padding-top: 200px;
 }
 
 .navbar a{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     font-family: sans-serif;
-    padding: 12px 14px;
+    padding: 20px 14px;
     text-decoration: none;
 
 }
@@ -96,39 +114,47 @@ li a.logo{
 }
 
 header{
+    position: fixed;
     align-items: center;
     display: inline-flex;
     background: whitesmoke;
     width: 100%;
     height: 80px;
+    
     top: 0;
     left: 0;
 
 }
 
 #logo{
+    padding-left: 140px;
     display: inline-block;
     width: 64px;
+
 
 
 }
 
 .comp{
     width: 80%;
+    padding-left: 24px;
     text-decoration: none;
     color: #4caf50;
     font-weight: bolder;
 }
 
 .hero{
+    
+    
     background-color: rgb(221, 219, 219);
     width: 100%;
    text-align: center;
     height: 30%;
     padding-top: 10%;
     padding-bottom: 20%;
-    
+        
 }
+
 
 .herofaq{
     background-color: rgb(221, 219, 219);
@@ -154,6 +180,7 @@ header{
 }
 
 .row .contnt {
+  
     position: relative;
     width: 50%;
     top: 50px;
@@ -199,11 +226,14 @@ footer{
 }
 
 .card{
-    width: 20%;
+    
+    width: 30%;
 box-shadow: 0 4px 8px 0 rgba(218, 214, 214, 0.657);
 transition: 0.3s;
 margin-right: 18px;
 }
+
+
 
 .card .cardimage{
     width: 100%;
@@ -217,16 +247,53 @@ margin-right: 18px;
     margin-left: 4px;
     
 }
-.carddiv{
+
+.carddiv{    
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    margin-right: 0%;
     
-    display: flex;
-    margin: 4%;
-    width: 90%;
 }
 .bodydiv{
-    display: flex;
+    display: inline-flex;
 }
 
 .productsdiv{
-    width: 97%;
+    
 }
+.prodsimg{
+    width: 50%;
+    height: 100%;
+}
+.prodbody{
+    display: flex;
+    
+}
+.proddef{
+    width: 50%;
+    height: auto;
+    padding-left: 0px;
+    margin-right: 32px;
+    font-family: sans-serif;
+   
+}
+img#img1{
+ border: 3px solid #4caf50; 
+ border-radius: 4px;  
+}
+img#img2{
+    border: 3px solid rgb(238, 238, 238); 
+    border-radius: 4px;  
+   }
+   img#img3{
+    border: 3px solid rgb(238, 238, 238); 
+    border-radius: 4px;  
+   }
+   .conta{
+       background-color: #4caf50;
+       color: #000;
+       width: 35%;
+       margin-right: 3.2%;
+   }
+   
